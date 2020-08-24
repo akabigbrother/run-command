@@ -9,7 +9,7 @@ module.exports = {
   },
   parser: require.resolve('@typescript-eslint/parser'),
   plugins: ['@typescript-eslint'],
-  extends: ['airbnb', 'airbnb/hooks', 'plugin:prettier/recommended', 'prettier/react', 'prettier/@typescript-eslint'],
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:prettier/recommended', 'prettier/react'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
